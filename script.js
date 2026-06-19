@@ -96,8 +96,8 @@ if (valueSelect.value == "bitcoin") {
         currency: "BTC",
     }).format(inputValue / bitcoinDay)
 }
+    
     // alert(theConverted.innerHTML) - MELHOR QUE cosole.log(theConverted.innerHTML)
-   alert(theConverted.innerHTML)
 
 }
 
