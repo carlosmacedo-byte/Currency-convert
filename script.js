@@ -53,7 +53,7 @@ function clickButtom () {
     const bitcoinDay = 325168
 
 
-    // const convertValue = inputValue / dolarDay - PODEMOS FAZER DIRETO NA FORMATAÇÃO
+    //const convertValue = inputValue / dolarDay - PODEMOS FAZER DIRETO NA FORMATAÇÃO
 
 
     toConvert.innerHTML = new Intl.NumberFormat("pt-BR", {
