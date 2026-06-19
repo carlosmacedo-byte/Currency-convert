@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Câmbio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="img-one" src="./assets/logo.gif">
+
+    <main>
+
+            <label>
+                <p>Converter de</p>
+                <select id="opition">
+
+                    <option value="real">R$ Real</option>
+                    
+                </select>
+            </label>
+
+            <label>
+                <p>Converter para</p>
+                <select id="option">
+
+                    <option value="dolar">US$ Dólar</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="libra">£ Libra</option>
+                    <option value="bitcoin">₿ Bitcoin</option>
+
+                </select>
+            </label>
+
+            <label>
+                <p>Valor</p>
+                <input id="cash" type="number" step="0.01" placeholder="R$ 0,00">
+            </label>
+
+            <button id="convert">Converter</button>
+
+
+            <section>
+                <div>
+                    <img class="img-two" src="./assets/real.png" alt="Câmbio Brsileiro">
+                    <p class="text-one">Real</p>
+                    <p class="value" id="to-convert">R$ 0,00</p>
+                </div>
+                <img class="img-three" src="./assets/Vector.png" alt="Indicador">
+                <div>
+                    <img id="currency-img" class="img-two" src="./assets/dolar.png" alt="Câmbio Estrangeiro">
+                    <P class="text-one" id="currency-name">Dolar</P>
+                    <p class="value" id="the-converted">US$ 0,00</p>
+                </div>
+            </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

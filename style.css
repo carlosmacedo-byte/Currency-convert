@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    outline: none;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #8A51FC;
+
+}
+
+.img-one {
+    width: 160px;
+    display: block;
+    margin: 16px auto;
+
+}
+
+.img-two {
+    width: 42px;
+}
+
+.img-three {
+    width: 25px;
+}
+
+main {
+    background-color: #F4F4F4;
+    width: 275px;
+    height: 490px;
+    border-radius: 16px;
+    margin: 16px auto;
+    padding: 16px;
+}
+
+label {
+    color:#777777;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 11.2px;
+}
+
+select, input {
+    width: 100%;
+    padding: 8px 3.2px;
+    margin-bottom: 8px;
+    font-size: 11.2px;
+    font-family: Roboto;
+    font-weight: 500;
+    border-radius: 3.2px;
+    border: 1px solid #bbbbbb;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    background-color: #8A51FC;
+    padding: 8px 0;
+    border: none;
+    border-radius: 3.2px;
+    margin: 8px 0 24px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #8A51FC;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 8px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.value {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.text-one{
+    font-size: 11.2px;
+    font-weight: 400;
+    color: #777777;
+
+}
