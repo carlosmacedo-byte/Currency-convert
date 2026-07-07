@@ -7,24 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img class="img-one" src="./assets/logo.gif">
+    <img class="img-one" src="./assets/currencyart.gif" alt="Câmbio">
 
     <main>
 
             <label>
                 <p>Converter de</p>
-                <select id="opition">
+                <select id="option-one">
 
                     <option value="real">R$ Real</option>
+                    <option value="dolar">US$ Dólar</option>
+                    <option value="euro">€ Euro</option>
+                    <option value="libra">£ Libra</option>
+                    <option value="bitcoin">₿ Bitcoin</option>
+
                     
                 </select>
             </label>
 
             <label>
                 <p>Converter para</p>
-                <select id="option">
+                <select id="option-two">
 
                     <option value="dolar">US$ Dólar</option>
+                    <option value="real">R$ Real</option>
                     <option value="euro">€ Euro</option>
                     <option value="libra">£ Libra</option>
                     <option value="bitcoin">₿ Bitcoin</option>
@@ -42,14 +48,14 @@
 
             <section>
                 <div>
-                    <img class="img-two" src="./assets/real.png" alt="Câmbio Brsileiro">
-                    <p class="text-one">Real</p>
+                    <img id="currency-img-one" class="img-two" src="./assets/real.png" alt="Câmbio Brsileiro">
+                    <p class="text-one" id="currency-name-one">Real</p>
                     <p class="value" id="to-convert">R$ 0,00</p>
                 </div>
                 <img class="img-three" src="./assets/Vector.png" alt="Indicador">
                 <div>
-                    <img id="currency-img" class="img-two" src="./assets/dolar.png" alt="Câmbio Estrangeiro">
-                    <P class="text-one" id="currency-name">Dolar</P>
+                    <img id="currency-img-two" class="img-two" src="./assets/dolar.png" alt="Câmbio Estrangeiro">
+                    <P class="text-one" id="currency-name-two">Dolar</P>
                     <p class="value" id="the-converted">US$ 0,00</p>
                 </div>
             </section>
