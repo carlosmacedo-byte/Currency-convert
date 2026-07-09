@@ -13,36 +13,41 @@ const currencyName = document.getElementById("currency-name-one") // mapeando te
 const currencyNameTwo = document.getElementById("currency-name-two")
 const currencyImg = document.getElementById("currency-img-one") // mapeando img que será alterada
 const currencyImgTwo = document.getElementById("currency-img-two")
-
+const inputHolder = document.getElementById("cash") 
 
 if (valueSelectOne.value == "real")  {
 
     currencyName.innerHTML = "Real"
     currencyImg.src = "./assets/real.png"
+    inputHolder.placeholder = "R$ 0,00"
 }
 
 if (valueSelectOne.value == "dolar")  {
 
     currencyName.innerHTML = "Dolar"
     currencyImg.src = "./assets/dolar.png"
+    inputHolder.placeholder = "US$ 0,00"
 }
 
 if (valueSelectOne.value == "euro")  {
 
     currencyName.innerHTML = "Euro"
     currencyImg.src = "./assets/euro.png"
+    inputHolder.placeholder = "€ 0,00"
 }
 
 if (valueSelectOne.value == "libra") {
 
     currencyName.innerHTML = "Libra"
     currencyImg.src = "./assets/libra.png"
+    inputHolder.placeholder = "£ 0,00"
 }
 
 if (valueSelectOne.value == "bitcoin") {
 
     currencyName.innerHTML = "Bitcoin"
     currencyImg.src = "./assets/bitcoin.png"
+    inputHolder.placeholder = "₿ 0,00"
 }
 
  /*=============================================================
