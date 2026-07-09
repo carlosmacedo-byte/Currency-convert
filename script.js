@@ -18,35 +18,35 @@ const inputHolder = document.getElementById("cash")
 if (valueSelectOne.value == "real")  {
 
     currencyName.innerHTML = "Real"
-    currencyImg.src = "./assets/real.png"
+    currencyImg.src = "./assets/moedareal.png"
     inputHolder.placeholder = "R$ 0,00"
 }
 
 if (valueSelectOne.value == "dolar")  {
 
     currencyName.innerHTML = "Dolar"
-    currencyImg.src = "./assets/dolar.png"
+    currencyImg.src = "./assets/moedadolar.png"
     inputHolder.placeholder = "US$ 0,00"
 }
 
 if (valueSelectOne.value == "euro")  {
 
     currencyName.innerHTML = "Euro"
-    currencyImg.src = "./assets/euro.png"
+    currencyImg.src = "./assets/moedaeuro.png"
     inputHolder.placeholder = "€ 0,00"
 }
 
 if (valueSelectOne.value == "libra") {
 
     currencyName.innerHTML = "Libra"
-    currencyImg.src = "./assets/libra.png"
+    currencyImg.src = "./assets/moedalibra.png"
     inputHolder.placeholder = "£ 0,00"
 }
 
 if (valueSelectOne.value == "bitcoin") {
 
     currencyName.innerHTML = "Bitcoin"
-    currencyImg.src = "./assets/bitcoin.png"
+    currencyImg.src = "./assets/moedabitcoin.png"
     inputHolder.placeholder = "₿ 0,00"
 }
 
@@ -57,31 +57,31 @@ if (valueSelectOne.value == "bitcoin") {
 if (valueSelectTwo.value == "real")  {
 
     currencyNameTwo.innerHTML = "Real"
-    currencyImgTwo.src = "./assets/real.png"
+    currencyImgTwo.src = "./assets/moedareal.png"
 }
 
 if (valueSelectTwo.value == "dolar")  {
 
     currencyNameTwo.innerHTML = "Dolar"
-    currencyImgTwo.src = "./assets/dolar.png"
+    currencyImgTwo.src = "./assets/moedadolar.png"
 }
 
 if (valueSelectTwo.value == "euro")  {
 
     currencyNameTwo.innerHTML = "Euro"
-    currencyImgTwo.src = "./assets/euro.png"
+    currencyImgTwo.src = "./assets/moedaeuro.png"
 }
 
 if (valueSelectTwo.value == "libra") {
 
     currencyNameTwo.innerHTML = "Libra"
-    currencyImgTwo.src = "./assets/libra.png"
+    currencyImgTwo.src = "./assets/moedalibra.png"
 }
 
 if (valueSelectTwo.value == "bitcoin") {
 
     currencyNameTwo.innerHTML = "Bitcoin"
-    currencyImgTwo.src = "./assets/bitcoin.png"
+    currencyImgTwo.src = "./assets/moedabitcoin.png"
 }
 
 clickButtom()
