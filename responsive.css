@@ -12,6 +12,14 @@ main {
     padding: 16px;
     }
 
+select, input {
+    width: 100%;
+    padding: 8px 3.2px;
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-family: Roboto;
+}
+
 button {
     width: 100%;
     padding: 12px 3.2px;
@@ -20,6 +28,7 @@ button {
 }
 
 section {
+    justify-content: center;
     height: 500px;
 }
 
