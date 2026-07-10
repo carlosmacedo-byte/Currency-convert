@@ -123,12 +123,12 @@ function clickButtom () { // função de conversão
     
     const valueCurrency = { 
     real: 1,
-    dolar: 5.18,
-    euro: 5.94,
+    dolar: 5.21,
+    euro: 5.92,
     libra: 6.84,
-    yuan: 0.73,
-    bitcoin: 325168,
-    ether: 1800
+    yuan: 0.75,
+    bitcoin: 317840,
+    ether: 8463
     }
 
     const convertValue = inputValue * valueCurrency[valueSelectOne.value] 
