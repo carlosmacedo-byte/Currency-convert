@@ -43,11 +43,25 @@ if (valueSelectOne.value == "libra") {
     inputHolder.placeholder = "£ 0,00"
 }
 
+if (valueSelectOne.value == "yuan") {
+
+    currencyName.innerHTML = "Yuan"
+    currencyImg.src = "./assets/moedayang.png"
+    inputHolder.placeholder = "¥ 0,00"
+}
+
 if (valueSelectOne.value == "bitcoin") {
 
     currencyName.innerHTML = "Bitcoin"
     currencyImg.src = "./assets/moedabitcoin.png"
     inputHolder.placeholder = "₿ 0,00"
+}
+
+if (valueSelectOne.value == "ether") {
+
+    currencyName.innerHTML = "Ether"
+    currencyImg.src = "./assets/moedaether.png"
+    inputHolder.placeholder = "Ξ 0,00"
 }
 
  /*=============================================================
@@ -78,10 +92,22 @@ if (valueSelectTwo.value == "libra") {
     currencyImgTwo.src = "./assets/moedalibra.png"
 }
 
+if (valueSelectTwo.value == "yuan") {
+
+    currencyNameTwo.innerHTML = "Yuan"
+    currencyImgTwo.src = "./assets/moedayang.png"
+}
+
 if (valueSelectTwo.value == "bitcoin") {
 
     currencyNameTwo.innerHTML = "Bitcoin"
     currencyImgTwo.src = "./assets/moedabitcoin.png"
+}
+
+if (valueSelectTwo.value == "ether") {
+
+    currencyNameTwo.innerHTML = "Ether"
+    currencyImgTwo.src = "./assets/moedaether.png"
 }
 
 clickButtom()
@@ -100,7 +126,9 @@ function clickButtom () { // função de conversão
     dolar: 5.18,
     euro: 5.94,
     libra: 6.84,
-    bitcoin: 325168
+    yuan: 0.73,
+    bitcoin: 325168,
+    ether: 1800
     }
 
     const convertValue = inputValue * valueCurrency[valueSelectOne.value] 
@@ -139,12 +167,27 @@ function clickButtom () { // função de conversão
         }).format(inputValue) 
     }
 
+    if (valueSelectOne.value == "yuan") {
+
+        toConvert.innerHTML = new Intl.NumberFormat("zh-CN", { 
+            style: "currency",
+            currency: "CNY"
+        }).format(inputValue) 
+    }
+
     if (valueSelectOne.value == "bitcoin") {
 
         toConvert.innerHTML = new Intl.NumberFormat("en-US", { 
             style: "currency",
             currency: "BTC"
         }).format(inputValue) 
+    }
+
+    if (valueSelectOne.value == "ether") {
+        toConvert.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "ETH"
+        }).format(inputValue)
     }
 
     /*=============================================================
@@ -183,11 +226,25 @@ function clickButtom () { // função de conversão
         }).format(convertValue / valueCurrency[valueSelectTwo.value])
     }
 
+    if (valueSelectTwo.value == "yuan") {
+        theConverted.innerHTML = new Intl.NumberFormat("zh-CN", {
+            style: "currency",
+            currency: "CNY"
+        }).format(convertValue / valueCurrency[valueSelectTwo.value])
+    }
+
 // Bitcoin
     if (valueSelectTwo.value == "bitcoin") {
         theConverted.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
             currency: "BTC",
+        }).format(convertValue / valueCurrency[valueSelectTwo.value])
+    }
+
+    if (valueSelectTwo.value == "ether") {
+        theConverted.innerHTML = new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "ETH"
         }).format(convertValue / valueCurrency[valueSelectTwo.value])
     }
     
