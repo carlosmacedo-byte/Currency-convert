@@ -2,107 +2,91 @@
 
 **`Conversor de Moedas`**
 
-Este é um conversor câmbial que tem como base a valor de cada respectiva moeda do dia <b>01-07</b>.
-Nesse projeto usei como base um projeto de estudos em <b>JavaScript</b> que convertia somente do real para outras moedas. Depos de varias adaptações o que apresento é um projeto totalmente novo, em design e código!
+Este é um conversor cambial que tem como base o valor de cada respectiva moeda do dia **01-07**.
+Nesse projeto usei como base um projeto de estudos em **JavaScript** que convertia somente do real para outras moedas. Depois de várias adaptações, o que apresento é um projeto totalmente novo, em design e código!
 
-<a href="https://carlosmacedo-byte.github.io/Currency-convert/" target="_blank">Site Projeto Currency</a> 👈
+<a href="https://carlosmacedo-byte.github.io/Currency-convert/" target="_blank">Acessar Site do Projeto Currency</a> 👈
 
 ### Adaptações
 
 - De qualquer moeda para qualquer moeda 
 - Design exclusivo 
-- Inplementação das variáveis de cálculo
+- Implementação das variáveis de cálculo
 - Responsividade
 
-### Moedas 
+### Moedas Suportadas
 
-<br>
-        <img 
-            height="50px"
-            width="50px"
-            alt="Instagram Seguidores"
-            title="Siga-me no Instagram"
-            src="./assets/moedareal.png"
-            terget="blank"
-        />
-        <img 
-            height="50px"
-            width="50px"
-            alt="Instagram Seguidores"
-            title="Siga-me no Instagram"
-            src="./assets/moedadolar.png"
-            terget="blank"
-        />
-        <img 
-            height="50px"
-            width="50px"
-            alt="Instagram Seguidores"
-            title="Siga-me no Instagram"
-            src="./assets/moedaeuro.png"
-            terget="blank"
-        />
-        <img 
-            height="50px"
-            width="50px"
-            alt="Instagram Seguidores"
-            title="Siga-me no Instagram"
-            src="./assets/moedalibra.png"
-            terget="blank"
-        />
-        <img 
-            height="50px"
-            width="50px"
-            alt="Instagram Seguidores"
-            title="Siga-me no Instagram"
-            src="./assets/moedayang.png"
-            terget="blank"
-        />
+<p align="left">
+  <img 
+    width="50px"
+    alt="Bandeira do Brasil / Real"
+    title="Real (BRL)"
+    src="./assets/moedareal.png"
+  />
+  <img 
+    width="50px"
+    alt="Bandeira dos EUA / Dólar"
+    title="Dólar Americano (USD)"
+    src="./assets/moedadolar.png"
+  />
+  <img 
+    width="50px"
+    alt="Símbolo do Euro"
+    title="Euro (EUR)"
+    src="./assets/moedaeuro.png"
+  />
+  <img 
+    width="50px"
+    alt="Bandeira do Reino Unido / Libra"
+    title="Libra Esterlina (GBP)"
+    src="./assets/moedalibra.png"
+  />
+  <img 
+    width="50px"
+    alt="Símbolo do Iene"
+    title="Iene Japonês (JPY)"
+    src="./assets/moedayang.png"
+  />
+</p>
 
-### Cripto Moedas 
-<br>
-        <img 
-            height="50px"
-            width="50px"
-            alt="Instagram Seguidores"
-            title="Siga-me no Instagram"
-            src="./assets/moedabitcoin.png"
-            terget="blank"
-        />
-        <img 
-            height="50px"
-            width="50px"
-            alt="Instagram Seguidores"
-            title="Siga-me no Instagram"
-            src="./assets/moedaether.png"
-            terget="blank"
-        />
+### Criptomoedas Suportadas
 
+<p align="left">
+  <img
+    width="50px"
+    alt="Logo do Bitcoin"
+    title="Bitcoin (BTC)"
+    src="./assets/moedabitcoin.png"
+  />
+  <img
+    width="50px"
+    alt="Logo do Ethereum"
+    title="Ethereum (ETH)"
+    src="./assets/moedaether.png"
+  />
+</p>
 
 ### 🤖 Linguagens e Tecnologias
 
-<br>
-    
-<img 
-    align="left" 
-    alt="HTML"
-    title="HTML" 
-    width="30px" 
-    style="padding-right: 10px;" 
+<p align="left">
+  <img
+    width="40px"
+    alt="HTML5"
+    title="HTML5"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="CSS" 
-    title="CSS"
-    width="30px" 
-    style="padding-right: 10px;" 
+  />
+  &nbsp;
+  <img
+    width="40px"
+    alt="CSS3"
+    title="CSS3"
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" 
-/>
-<img 
-    align="left" 
-    alt="JavaScript" 
+  />
+  &nbsp;
+  <img
+    width="40px"
+    alt="JavaScript"
     title="JavaScript"
-    width="30px" 
-    style="padding-right: 10px;" 
     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" 
-/>
+  />
+</p>
