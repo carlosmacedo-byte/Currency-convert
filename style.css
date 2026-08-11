@@ -21,6 +21,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .img-one {
@@ -39,10 +40,19 @@ body {
     width: 50px;
 }
 
-main {
+.painel {
     background-color: #F4F4F4;
     width: 275px;
     border-radius: 16px;
+    padding: 16px;
+}
+
+.information {
+    border: solid 1px;
+    border-color: #F4F4F4;
+    border-radius: 16px;
+    width: 500px;
+    height:570px;
     padding: 16px;
 }
 
@@ -104,5 +114,18 @@ div {
     font-weight: 400;
     color: #777777;
     margin-top: 3px;
+}
 
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(10, 81, 21);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.explanation {
+    font-size: 14px;
+    font-weight: 350;
+    color: #ffffff;
 }

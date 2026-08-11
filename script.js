@@ -13,7 +13,9 @@ const currencyName = document.getElementById("currency-name-one") // mapeando te
 const currencyNameTwo = document.getElementById("currency-name-two")
 const currencyImg = document.getElementById("currency-img-one") // mapeando img que será alterada
 const currencyImgTwo = document.getElementById("currency-img-two")
-const inputHolder = document.getElementById("cash") 
+const inputHolder = document.getElementById("cash") // mapeando placeholder do input
+
+// ALTERAÇÕES VISUAIS 
 
 if (valueSelectOne.value == "real")  {
 
@@ -116,12 +118,12 @@ clickButtom()
 
 function clickButtom () { // função de conversão
 
-    const inputValue = document.getElementById("cash").value // mapeando input 
+    const inputValue = document.getElementById("cash").value // mapeando valor do input 
     const toConvert = document.getElementById("to-convert") // mapeando texto numerico de valor
     const theConverted = document.getElementById("the-converted") // mapeando texto numerico de valor convertido
 
     
-    const valueCurrency = { 
+    const valueCurrency = {  // objeto com valores das moedas
     real: 1,
     dolar: 5.21,
     euro: 5.92,
@@ -131,7 +133,7 @@ function clickButtom () { // função de conversão
     ether: 8463
     }
 
-    const convertValue = inputValue * valueCurrency[valueSelectOne.value] 
+    const convertValue = inputValue * valueCurrency[valueSelectOne.value] // variavél de calculo 
 
     //const convertValue = inputValue / dolarDay - PODEMOS FAZER DIRETO NA FORMATAÇÃO
 
@@ -200,7 +202,7 @@ function clickButtom () { // função de conversão
         theConverted.innerHTML = new Intl.NumberFormat("pt-BR", { //formatqando valor digitado para moeda brasileira
             style: "currency",
             currency: "BRL"
-        }).format(convertValue / valueCurrency[valueSelectTwo.value]) 
+        }).format(convertValue / valueCurrency[valueSelectTwo.value]) // Calculo do segundo valor 
     }
 
     if (valueSelectTwo.value == "dolar") {
