@@ -14,32 +14,38 @@
     <main class="information">
 
         <h1>Currency Converter</h1>
-        <p class="explanation">Olá, você que está chegando aqui, seja bem vindo ao Currency Converter, um conversor cambial atual que traz os preços atuais de cada respectiva moeda selecionada nos campos da sua direita. 
-<br>
-<br>
-<b>Modo de uso:</b>
-<br>
-<br>
-1. Selecione no primeiro campo a moeda de saída, nesta você só verá o valor que colocar no campo de digitação.
-<br>
-<br>
-2. Selecione no segundo campo a moeda de destino, a que você deseja conhecer o valor em referência a primeira moeda selecionada.
-<br>
-<br>
-3. Coloque no Campo de digitação o valor que deseja para a moeda de saída, e esse valor será considerado no preço atual da moeda selecionada.
-<br>
-<br>
-4. Ao terminar pode clicar no botão de converter. Este botão é necessário usá-lo uma única vez, e poderá fazer outras conversões somente trocando as moedas.
-<br>
-<br>
-Estamos trabalhando para que mais moedas sejam selecionadas e a diversidade desse projeto seja ainda maior. Até então contamos com as moedas mais importantes do mundo e algumas das mais importantes criptomoedas.
-<br>
-<br>
-Obrigado por acessar essa ferramenta que provavelmente lhe será muito útil.
-<br>
-<br>
-Sucesso!   
-</p>
+        <p class="explanation">Olá, você que está chegando aqui, seja bem vindo ao Currency Converter, um conversor
+            cambial atual que traz os preços atuais de cada respectiva moeda selecionada nos campos da sua direita.
+            <br>
+            <br>
+            <b>Modo de uso:</b>
+            <br>
+            <br>
+            1. Selecione no primeiro campo a moeda de saída, nesta você só verá o valor que colocar no campo de
+            digitação.
+            <br>
+            <br>
+            2. Selecione no segundo campo a moeda de destino, a que você deseja conhecer o valor em referência a
+            primeira moeda selecionada.
+            <br>
+            <br>
+            3. Coloque no Campo de digitação o valor que deseja para a moeda de saída, e esse valor será considerado no
+            preço atual da moeda selecionada.
+            <br>
+            <br>
+            4. Ao terminar pode clicar no botão de converter. Este botão é necessário usá-lo uma única vez, e poderá
+            fazer outras conversões somente trocando as moedas.
+            <br>
+            <br>
+            Estamos trabalhando para que mais moedas sejam selecionadas e a diversidade desse projeto seja ainda maior.
+            Até então contamos com as moedas mais importantes do mundo e algumas das mais importantes criptomoedas.
+            <br>
+            <br>
+            Obrigado por acessar essa ferramenta que provavelmente lhe será muito útil.
+            <br>
+            <br>
+            Sucesso!
+        </p>
 
     </main>
 
@@ -48,30 +54,26 @@ Sucesso!
         <label>
             <p>Converter de</p>
             <select id="option-one">
-
                 <option value="real">R$ Real</option>
                 <option value="dolar">US$ Dólar</option>
                 <option value="euro">€ Euro</option>
                 <option value="libra">£ Libra</option>
                 <option value="yuan">¥ Yuan</option>
-                <option value="bitcoin">₿ Bitcoin</option>
-                <option value="ether">Ξ Ether</option>
-
+                <option value="peso">$ Peso Argentino</option>
+                <option value="rublo">₽ Rublo Russo</option>
             </select>
         </label>
 
         <label>
             <p>Converter para</p>
             <select id="option-two">
-
                 <option value="dolar">US$ Dólar</option>
                 <option value="real">R$ Real</option>
                 <option value="euro">€ Euro</option>
                 <option value="libra">£ Libra</option>
                 <option value="yuan">¥ Yuan</option>
-                <option value="bitcoin">₿ Bitcoin</option>
-                <option value="ether">Ξ Ether</option>
-
+                <option value="peso">$ Peso Argentino</option>
+                <option value="rublo">₽ Rublo Russo</option>
             </select>
         </label>
 
@@ -103,60 +105,61 @@ Sucesso!
 
         <label>
             <p>Converter de</p>
-            <select id="option-one">
+            <select id="option-one-crypto">
 
-                <option value="real">R$ Real</option>
-                <option value="dolar">US$ Dólar</option>
-                <option value="euro">€ Euro</option>
-                <option value="libra">£ Libra</option>
-                <option value="yuan">¥ Yuan</option>
                 <option value="bitcoin">₿ Bitcoin</option>
                 <option value="ether">Ξ Ether</option>
+                <option value="dogecoin">Ð Dogecoin</option>
+                <option value="litecoin">Ł Litecoin</option>
+                <option value="xrp">✕ XRP</option>
+                <option value="solana">◎ Solana</option>
+                <option value="binancecoin">BNB Binance Coin</option>
 
             </select>
         </label>
 
         <label>
             <p>Converter para</p>
-            <select id="option-two">
+            <select id="option-two-crypto">
 
-                <option value="dolar">US$ Dólar</option>
-                <option value="real">R$ Real</option>
-                <option value="euro">€ Euro</option>
-                <option value="libra">£ Libra</option>
-                <option value="yuan">¥ Yuan</option>
                 <option value="bitcoin">₿ Bitcoin</option>
                 <option value="ether">Ξ Ether</option>
+                <option value="dogecoin">Ð Dogecoin</option>
+                <option value="litecoin">Ł Litecoin</option>
+                <option value="xrp">✕ XRP</option>
+                <option value="solana">◎ Solana</option>
+                <option value="binancecoin">BNB Binance Coin</option>
 
             </select>
         </label>
 
         <label>
             <p>Valor</p>
-            <input id="cash" type="number" step="0.01" placeholder="R$ 0,00">
+            <input id="cash-crypto" type="number" step="0.01" placeholder="R$ 0,00">
         </label>
 
-        <button id="convert">Converter</button>
+        <button id="convert-crypto">Converter</button>
 
 
         <section>
             <div>
-                <img id="currency-img-one" class="img-two" src="./assets/moedareal.png" alt="Câmbio Brsileiro">
-                <p class="text-one" id="currency-name-one">Real</p>
-                <p class="value" id="to-convert">R$ 0,00</p>
+                <img id="currency-img-one-crypto" class="img-two" src="./assets/moedareal.png" alt="Câmbio Brasileiro">
+                <p class="text-one" id="currency-name-one-crypto">Real</p>
+                <p class="value" id="to-convert-crypto">R$ 0,00</p>
             </div>
             <img class="img-three" src="./assets/setasifrao.png" alt="Indicador">
             <div>
-                <img id="currency-img-two" class="img-two" src="./assets/moedadolar.png" alt="Câmbio Estrangeiro">
-                <P class="text-one" id="currency-name-two">Dolar</P>
-                <p class="value" id="the-converted">US$ 0,00</p>
+                <img id="currency-img-two-crypto" class="img-two" src="./assets/moedadolar.png"
+                    alt="Câmbio Estrangeiro">
+                <P class="text-one" id="currency-name-two-crypto">Dolar</P>
+                <p class="value" id="the-converted-crypto">US$ 0,00</p>
             </div>
         </section>
 
     </main>
-
 
 </body>
 <script src="script.js"></script>
+<script src="scriptCrypto.js"></script>
 
 </html>
