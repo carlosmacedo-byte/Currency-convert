@@ -10,41 +10,41 @@
 </head>
 
 <body>
-
+    
     <main class="information">
 
         <h1>Currency Converter</h1>
         <p class="explanation">Olá, você que está chegando aqui, seja bem vindo ao Currency Converter, um conversor
-            cambial atual que traz os preços atuais de cada respectiva moeda selecionada nos campos da sua direita.
+            cambial que traz os preços atuais de cada respectiva moeda selecionada nos campos da sua direita.
             <br>
             <br>
             <b>Modo de uso:</b>
             <br>
             <br>
-            1. Selecione no primeiro campo a moeda de saída, nesta você só verá o valor que colocar no campo de
-            digitação.
+            <b>1.</b> Selecione no primeiro campo a moeda de saída, feito isso você verá o valor que colocar no campo de
+            digitação do passo 3.
             <br>
             <br>
-            2. Selecione no segundo campo a moeda de destino, a que você deseja conhecer o valor em referência a
+            <b>2.</b> Selecione no segundo campo a moeda de destino, a que você deseja conhecer o valor em referência a
             primeira moeda selecionada.
             <br>
             <br>
-            3. Coloque no Campo de digitação o valor que deseja para a moeda de saída, e esse valor será considerado no
+            <b>3.</b> Coloque no Campo de digitação o valor que deseja para a moeda de saída. Esse valor será considerado no
             preço atual da moeda selecionada.
             <br>
             <br>
-            4. Ao terminar pode clicar no botão de converter. Este botão é necessário usá-lo uma única vez, e poderá
+            <b>4.</b> Ao terminar pode clicar no botão de converter. Este botão é necessário usá-lo uma única vez, e poderá
             fazer outras conversões somente trocando as moedas.
             <br>
             <br>
             Estamos trabalhando para que mais moedas sejam selecionadas e a diversidade desse projeto seja ainda maior.
-            Até então contamos com as moedas mais importantes do mundo e algumas das mais importantes criptomoedas.
+            Até então contamos com as moedas mais importantes do mundo e algumas das mais importantes criptomoedas mundiais.
             <br>
             <br>
             Obrigado por acessar essa ferramenta que provavelmente lhe será muito útil.
             <br>
             <br>
-            Sucesso!
+            <b>Sucesso!</b>
         </p>
 
     </main>
@@ -54,11 +54,12 @@
         <label>
             <p>Converter de</p>
             <select id="option-one">
-                <option value="real">R$ Real</option>
-                <option value="dolar">US$ Dólar</option>
-                <option value="euro">€ Euro</option>
-                <option value="libra">£ Libra</option>
-                <option value="yuan">¥ Yuan</option>
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro Europeu</option>
+                <option value="libra">£ Libra Esterlina</option>
+                <option value="yuan">¥ Yuan Chinês</option>
+                <option value="iene">¥ Iene Japonês</option>
                 <option value="peso">$ Peso Argentino</option>
                 <option value="rublo">₽ Rublo Russo</option>
             </select>
@@ -67,11 +68,12 @@
         <label>
             <p>Converter para</p>
             <select id="option-two">
-                <option value="dolar">US$ Dólar</option>
-                <option value="real">R$ Real</option>
-                <option value="euro">€ Euro</option>
-                <option value="libra">£ Libra</option>
-                <option value="yuan">¥ Yuan</option>
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="euro">€ Euro Europeu</option>
+                <option value="libra">£ Libra Esterlina</option>
+                <option value="yuan">¥ Yuan Chinês</option>
+                <option value="iene">¥ Iene Japonês</option>
                 <option value="peso">$ Peso Argentino</option>
                 <option value="rublo">₽ Rublo Russo</option>
             </select>
@@ -113,7 +115,7 @@
                 <option value="litecoin">Ł Litecoin</option>
                 <option value="xrp">✕ XRP</option>
                 <option value="solana">◎ Solana</option>
-                <option value="binancecoin">BNB Binance Coin</option>
+                <option value="binancecoin">◆ Binance Coin</option>
 
             </select>
         </label>
@@ -122,13 +124,13 @@
             <p>Converter para</p>
             <select id="option-two-crypto">
 
-                <option value="bitcoin">₿ Bitcoin</option>
                 <option value="ether">Ξ Ether</option>
+                <option value="bitcoin">₿ Bitcoin</option>
                 <option value="dogecoin">Ð Dogecoin</option>
                 <option value="litecoin">Ł Litecoin</option>
                 <option value="xrp">✕ XRP</option>
                 <option value="solana">◎ Solana</option>
-                <option value="binancecoin">BNB Binance Coin</option>
+                <option value="binancecoin">◆ Binance Coin</option>
 
             </select>
         </label>
@@ -143,16 +145,16 @@
 
         <section>
             <div>
-                <img id="currency-img-one-crypto" class="img-two" src="./assets/moedareal.png" alt="Câmbio Brasileiro">
-                <p class="text-one" id="currency-name-one-crypto">Real</p>
-                <p class="value" id="to-convert-crypto">R$ 0,00</p>
+                <img id="currency-img-one-crypto" class="img-two" src="./assets/moedabitcoin.png" alt="Câmbio Brasileiro">
+                <p class="text-one" id="currency-name-one-crypto">Bitcoin</p>
+                <p class="value" id="to-convert-crypto">₿ 0,00</p>
             </div>
             <img class="img-three" src="./assets/setasifrao.png" alt="Indicador">
             <div>
-                <img id="currency-img-two-crypto" class="img-two" src="./assets/moedadolar.png"
+                <img id="currency-img-two-crypto" class="img-two" src="./assets/moedaether.png"
                     alt="Câmbio Estrangeiro">
-                <P class="text-one" id="currency-name-two-crypto">Dolar</P>
-                <p class="value" id="the-converted-crypto">US$ 0,00</p>
+                <P class="text-one" id="currency-name-two-crypto">Ether</P>
+                <p class="value" id="the-converted-crypto">Ξ 0,00</p>
             </div>
         </section>
 
