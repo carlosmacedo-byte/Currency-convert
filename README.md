@@ -2,13 +2,13 @@
 
 Uma aplicação web moderna, dinâmica e responsiva desenvolvida para conversão de moedas e criptomoedas em tempo real. O projeto consome taxas de câmbio atualizadas via API REST externa e aplica internacionalização nativa para formatação de valores.
 
-🌐 **[Acesse a Aplicação ao Vivo](https://carlosmacedo-byte.github.io/Currency-convert/)**
+🌐 **[Acesse a Aplicação ao Vivo](https://carlosmacedo-byte.github.io/currency-converter/)**
 
 ---
 
 ## 📸 Demonstração da Interface
 
-![Currency Converter Preview](./assets/fundocurrency.png)
+![Currency Converter Preview](./assets/readme.png)
 
 ---
 
